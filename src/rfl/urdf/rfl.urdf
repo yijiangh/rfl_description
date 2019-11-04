@@ -119,7 +119,7 @@
     <visual>
       <origin rpy="0 0 0.0" xyz="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://rfl/meshes/visual/group1_z_axis_inner.stl"/>
+        <mesh filename="package://rfl/meshes/visual/group1_z_axis.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.9254902 0.9254902 0.9058824 1"/>
@@ -128,7 +128,7 @@
     <collision>
       <origin rpy="0 0 0.0" xyz="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://rfl/meshes/collision/group1_z_axis_inner.stl"/>
+        <mesh filename="package://rfl/meshes/collision/group1_z_axis.stl"/>
       </geometry>
     </collision>
   </link>
@@ -349,38 +349,6 @@
       <parent link="${prefix}base_link"/>
       <child link="${prefix}base"/>
     </joint-->
-  <!-- outer Z axis  -->
-  <joint name="robot11_joint_EA_Z_outer" type="prismatic">
-    <parent link="robot11_base"/>
-    <child link="robot11_z_axis_outer"/>
-    <origin rpy="0 0 0 " xyz="0 0 0"/>
-    <axis xyz="0 0 -1"/>
-    <limit effort="100000" lower="-10" upper="10" velocity="2.618"/>
-    <dynamics damping="0.2" friction="0"/>
-    <mimic joint="robot11_joint_EA_Z" multiplier="-0.5" offset="-2.4575"/>
-  </joint>
-  <link name="robot11_z_axis_outer">
-    <inertial>
-      <origin xyz="0.0 0.0 0.0"/>
-      <mass value="120.00000"/>
-      <inertia ixx="-4.98000" ixy="-0.00000" ixz="2.70000" iyy="-5.95200" iyz="-0.00000" izz="0.82800"/>
-    </inertial>
-    <visual>
-      <origin rpy="0 0 0.0" xyz="0.0 0.0 0.0"/>
-      <geometry>
-        <mesh filename="package://rfl/meshes/visual/group1_z_axis_outer.stl"/>
-      </geometry>
-      <material name="">
-        <color rgba="0.9254902 0.9254902 0.9058824 1"/>
-      </material>
-    </visual>
-    <collision>
-      <origin rpy="0 0 0.0" xyz="0.0 0.0 0.0"/>
-      <geometry>
-        <mesh filename="package://rfl/meshes/collision/group1_z_axis_outer.stl"/>
-      </geometry>
-    </collision>
-  </link>
   <joint name="robot12_joint_EA_Y" type="prismatic">
     <parent link="bridge1"/>
     <child link="robot12_xy_cart"/>
@@ -428,7 +396,7 @@
     <visual>
       <origin rpy="0 0 0.0" xyz="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://rfl/meshes/visual/group2_z_axis_inner.stl"/>
+        <mesh filename="package://rfl/meshes/visual/group2_z_axis.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.9254902 0.9254902 0.9058824 1"/>
@@ -437,7 +405,7 @@
     <collision>
       <origin rpy="0 0 0.0" xyz="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://rfl/meshes/collision/group2_z_axis_inner.stl"/>
+        <mesh filename="package://rfl/meshes/collision/group2_z_axis.stl"/>
       </geometry>
     </collision>
   </link>
@@ -658,38 +626,6 @@
       <parent link="${prefix}base_link"/>
       <child link="${prefix}base"/>
     </joint-->
-  <!-- outer Z axis  -->
-  <joint name="robot12_joint_EA_Z_outer" type="prismatic">
-    <parent link="robot12_base"/>
-    <child link="robot12_z_axis_outer"/>
-    <origin rpy="0 0 0 " xyz="0 0 0"/>
-    <axis xyz="0 0 -1"/>
-    <limit effort="100000" lower="-10" upper="10" velocity="2.618"/>
-    <dynamics damping="0.2" friction="0"/>
-    <mimic joint="robot12_joint_EA_Z" multiplier="-0.5" offset="-2.4575"/>
-  </joint>
-  <link name="robot12_z_axis_outer">
-    <inertial>
-      <origin xyz="0.0 0.0 0.0"/>
-      <mass value="120.00000"/>
-      <inertia ixx="-4.98000" ixy="-0.00000" ixz="2.70000" iyy="-5.95200" iyz="-0.00000" izz="0.82800"/>
-    </inertial>
-    <visual>
-      <origin rpy="0 0 0.0" xyz="0.0 0.0 0.0"/>
-      <geometry>
-        <mesh filename="package://rfl/meshes/visual/group2_z_axis_outer.stl"/>
-      </geometry>
-      <material name="">
-        <color rgba="0.9254902 0.9254902 0.9058824 1"/>
-      </material>
-    </visual>
-    <collision>
-      <origin rpy="0 0 0.0" xyz="0.0 0.0 0.0"/>
-      <geometry>
-        <mesh filename="package://rfl/meshes/collision/group2_z_axis_outer.stl"/>
-      </geometry>
-    </collision>
-  </link>
   <joint name="bridge2_joint_EA_X" type="prismatic">
     <parent link="x_rail"/>
     <child link="bridge2"/>
@@ -767,7 +703,7 @@
     <visual>
       <origin rpy="0 0 3.14159265359" xyz="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://rfl/meshes/visual/group2_z_axis_inner.stl"/>
+        <mesh filename="package://rfl/meshes/visual/group2_z_axis.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.9254902 0.9254902 0.9058824 1"/>
@@ -776,7 +712,7 @@
     <collision>
       <origin rpy="0 0 3.14159265359" xyz="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://rfl/meshes/collision/group2_z_axis_inner.stl"/>
+        <mesh filename="package://rfl/meshes/collision/group2_z_axis.stl"/>
       </geometry>
     </collision>
   </link>
@@ -997,38 +933,6 @@
       <parent link="${prefix}base_link"/>
       <child link="${prefix}base"/>
     </joint-->
-  <!-- outer Z axis  -->
-  <joint name="robot21_joint_EA_Z_outer" type="prismatic">
-    <parent link="robot21_base"/>
-    <child link="robot21_z_axis_outer"/>
-    <origin rpy="0 0 0 " xyz="0 0 0"/>
-    <axis xyz="0 0 -1"/>
-    <limit effort="100000" lower="-10" upper="10" velocity="2.618"/>
-    <dynamics damping="0.2" friction="0"/>
-    <mimic joint="robot21_joint_EA_Z" multiplier="-0.5" offset="-2.4575"/>
-  </joint>
-  <link name="robot21_z_axis_outer">
-    <inertial>
-      <origin xyz="0.0 0.0 0.0"/>
-      <mass value="120.00000"/>
-      <inertia ixx="-4.98000" ixy="-0.00000" ixz="2.70000" iyy="-5.95200" iyz="-0.00000" izz="0.82800"/>
-    </inertial>
-    <visual>
-      <origin rpy="0 0 3.14159265359" xyz="0.0 0.0 0.0"/>
-      <geometry>
-        <mesh filename="package://rfl/meshes/visual/group2_z_axis_outer.stl"/>
-      </geometry>
-      <material name="">
-        <color rgba="0.9254902 0.9254902 0.9058824 1"/>
-      </material>
-    </visual>
-    <collision>
-      <origin rpy="0 0 3.14159265359" xyz="0.0 0.0 0.0"/>
-      <geometry>
-        <mesh filename="package://rfl/meshes/collision/group2_z_axis_outer.stl"/>
-      </geometry>
-    </collision>
-  </link>
   <joint name="robot22_joint_EA_Y" type="prismatic">
     <parent link="bridge2"/>
     <child link="robot22_xy_cart"/>
@@ -1076,7 +980,7 @@
     <visual>
       <origin rpy="0 0 3.14159265359" xyz="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://rfl/meshes/visual/group1_z_axis_inner.stl"/>
+        <mesh filename="package://rfl/meshes/visual/group1_z_axis.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.9254902 0.9254902 0.9058824 1"/>
@@ -1085,7 +989,7 @@
     <collision>
       <origin rpy="0 0 3.14159265359" xyz="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://rfl/meshes/collision/group1_z_axis_inner.stl"/>
+        <mesh filename="package://rfl/meshes/collision/group1_z_axis.stl"/>
       </geometry>
     </collision>
   </link>
@@ -1306,36 +1210,4 @@
       <parent link="${prefix}base_link"/>
       <child link="${prefix}base"/>
     </joint-->
-  <!-- outer Z axis  -->
-  <joint name="robot22_joint_EA_Z_outer" type="prismatic">
-    <parent link="robot22_base"/>
-    <child link="robot22_z_axis_outer"/>
-    <origin rpy="0 0 0 " xyz="0 0 0"/>
-    <axis xyz="0 0 -1"/>
-    <limit effort="100000" lower="-10" upper="10" velocity="2.618"/>
-    <dynamics damping="0.2" friction="0"/>
-    <mimic joint="robot22_joint_EA_Z" multiplier="-0.5" offset="-2.4575"/>
-  </joint>
-  <link name="robot22_z_axis_outer">
-    <inertial>
-      <origin xyz="0.0 0.0 0.0"/>
-      <mass value="120.00000"/>
-      <inertia ixx="-4.98000" ixy="-0.00000" ixz="2.70000" iyy="-5.95200" iyz="-0.00000" izz="0.82800"/>
-    </inertial>
-    <visual>
-      <origin rpy="0 0 3.14159265359" xyz="0.0 0.0 0.0"/>
-      <geometry>
-        <mesh filename="package://rfl/meshes/visual/group1_z_axis_outer.stl"/>
-      </geometry>
-      <material name="">
-        <color rgba="0.9254902 0.9254902 0.9058824 1"/>
-      </material>
-    </visual>
-    <collision>
-      <origin rpy="0 0 3.14159265359" xyz="0.0 0.0 0.0"/>
-      <geometry>
-        <mesh filename="package://rfl/meshes/collision/group1_z_axis_outer.stl"/>
-      </geometry>
-    </collision>
-  </link>
 </robot>
