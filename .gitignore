@@ -1,6 +1,0 @@
-build
-devel
-logs
-.catkin_workspace
-.catkin_tools
-src/ros_file_server/
