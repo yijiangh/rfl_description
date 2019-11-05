@@ -21,14 +21,14 @@
       <visual>
         <origin xyz="0.0 ${12.2364997*rotated} 0.0" rpy="0 0 ${pi*rotated}"/>
         <geometry>
-          <mesh filename="package://rfl/meshes/visual/y_gantry.stl"/>
+          <mesh filename="package://rfl_description/meshes/visual/y_gantry.stl"/>
         </geometry>
         <xacro:material_abb_white/>
       </visual>
       <collision>
         <origin xyz="0.0 ${12.2364997*rotated} 0.0" rpy="0 0 ${pi*rotated}"/>
         <geometry>
-          <mesh filename="package://rfl/meshes/collision/y_gantry.stl"/>
+          <mesh filename="package://rfl_description/meshes/collision/y_gantry.stl"/>
         </geometry>
       </collision>
     </link>

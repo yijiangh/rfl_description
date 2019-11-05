@@ -21,14 +21,14 @@
       <visual>
         <origin xyz="0.0 0.0 0.0" rpy="0 0 ${pi*rotated}"/>
         <geometry>
-          <mesh filename="package://rfl/meshes/visual/${group}_xy_cart.stl"/>
+          <mesh filename="package://rfl_description/meshes/visual/${group}_xy_cart.stl"/>
         </geometry>
         <xacro:material_abb_white />
       </visual>
       <collision>
         <origin xyz="0.0 0.0 0.0" rpy="0 0 ${pi*rotated}"/>
         <geometry>
-          <mesh filename="package://rfl/meshes/collision/${group}_xy_cart.stl"/>
+          <mesh filename="package://rfl_description/meshes/collision/${group}_xy_cart.stl"/>
         </geometry>
       </collision>
     </link>
@@ -51,14 +51,14 @@
       <visual>
         <origin xyz="0.0 0.0 0.0" rpy="0 0 ${pi*rotated}"/>
         <geometry>
-          <mesh filename="package://rfl/meshes/visual/${group}_z_axis_inner.stl"/>
+          <mesh filename="package://rfl_description/meshes/visual/${group}_z_axis_inner.stl"/>
         </geometry>
         <xacro:material_abb_white />
       </visual>
       <collision>
         <origin xyz="0.0 0.0 0.0" rpy="0 0 ${pi*rotated}"/>
         <geometry>
-          <mesh filename="package://rfl/meshes/collision/${group}_z_axis_inner.stl"/>
+          <mesh filename="package://rfl_description/meshes/collision/${group}_z_axis_inner.stl"/>
         </geometry>
       </collision>
     </link>
@@ -94,14 +94,14 @@
       <visual>
         <origin xyz="0.0 0.0 0.0" rpy="0 0 ${pi*rotated}"/>
         <geometry>
-          <mesh filename="package://rfl/meshes/visual/${group}_z_axis_outer.stl"/>
+          <mesh filename="package://rfl_description/meshes/visual/${group}_z_axis_outer.stl"/>
         </geometry>
         <xacro:material_abb_white />
       </visual>
       <collision>
         <origin xyz="0.0 0.0 0.0" rpy="0 0 ${pi*rotated}"/>
         <geometry>
-          <mesh filename="package://rfl/meshes/collision/${group}_z_axis_outer.stl"/>
+          <mesh filename="package://rfl_description/meshes/collision/${group}_z_axis_outer.stl"/>
         </geometry>
       </collision>
     </link>

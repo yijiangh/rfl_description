@@ -16,7 +16,7 @@
     <collision>
       <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://rfl/meshes/collision/rfl_floor_and_columns.stl"/>
+        <mesh filename="package://rfl_description/meshes/collision/rfl_floor_and_columns.stl"/>
       </geometry>
     </collision>
   </link>
@@ -29,7 +29,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://rfl/meshes/visual/x_rail.stl"/>
+        <mesh filename="package://rfl_description/meshes/visual/x_rail.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.9254902 0.9254902 0.9058824 1"/>
@@ -38,7 +38,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://rfl/meshes/collision/x_rail.stl"/>
+        <mesh filename="package://rfl_description/meshes/collision/x_rail.stl"/>
       </geometry>
     </collision>
   </link>
@@ -59,7 +59,7 @@
     <visual>
       <origin rpy="0 0 0.0" xyz="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://rfl/meshes/visual/y_gantry.stl"/>
+        <mesh filename="package://rfl_description/meshes/visual/y_gantry.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.9254902 0.9254902 0.9058824 1"/>
@@ -68,7 +68,7 @@
     <collision>
       <origin rpy="0 0 0.0" xyz="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://rfl/meshes/collision/y_gantry.stl"/>
+        <mesh filename="package://rfl_description/meshes/collision/y_gantry.stl"/>
       </geometry>
     </collision>
   </link>
@@ -89,7 +89,7 @@
     <visual>
       <origin rpy="0 0 0.0" xyz="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://rfl/meshes/visual/group1_xy_cart.stl"/>
+        <mesh filename="package://rfl_description/meshes/visual/group1_xy_cart.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.9254902 0.9254902 0.9058824 1"/>
@@ -98,7 +98,7 @@
     <collision>
       <origin rpy="0 0 0.0" xyz="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://rfl/meshes/collision/group1_xy_cart.stl"/>
+        <mesh filename="package://rfl_description/meshes/collision/group1_xy_cart.stl"/>
       </geometry>
     </collision>
   </link>
@@ -119,7 +119,7 @@
     <visual>
       <origin rpy="0 0 0.0" xyz="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://rfl/meshes/visual/group1_z_axis_inner.stl"/>
+        <mesh filename="package://rfl_description/meshes/visual/group1_z_axis_inner.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.9254902 0.9254902 0.9058824 1"/>
@@ -128,7 +128,7 @@
     <collision>
       <origin rpy="0 0 0.0" xyz="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://rfl/meshes/collision/group1_z_axis_inner.stl"/>
+        <mesh filename="package://rfl_description/meshes/collision/group1_z_axis_inner.stl"/>
       </geometry>
     </collision>
   </link>
@@ -368,7 +368,7 @@
     <visual>
       <origin rpy="0 0 0.0" xyz="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://rfl/meshes/visual/group1_z_axis_outer.stl"/>
+        <mesh filename="package://rfl_description/meshes/visual/group1_z_axis_outer.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.9254902 0.9254902 0.9058824 1"/>
@@ -377,7 +377,7 @@
     <collision>
       <origin rpy="0 0 0.0" xyz="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://rfl/meshes/collision/group1_z_axis_outer.stl"/>
+        <mesh filename="package://rfl_description/meshes/collision/group1_z_axis_outer.stl"/>
       </geometry>
     </collision>
   </link>
@@ -398,7 +398,7 @@
     <visual>
       <origin rpy="0 0 0.0" xyz="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://rfl/meshes/visual/group2_xy_cart.stl"/>
+        <mesh filename="package://rfl_description/meshes/visual/group2_xy_cart.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.9254902 0.9254902 0.9058824 1"/>
@@ -407,7 +407,7 @@
     <collision>
       <origin rpy="0 0 0.0" xyz="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://rfl/meshes/collision/group2_xy_cart.stl"/>
+        <mesh filename="package://rfl_description/meshes/collision/group2_xy_cart.stl"/>
       </geometry>
     </collision>
   </link>
@@ -428,7 +428,7 @@
     <visual>
       <origin rpy="0 0 0.0" xyz="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://rfl/meshes/visual/group2_z_axis_inner.stl"/>
+        <mesh filename="package://rfl_description/meshes/visual/group2_z_axis_inner.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.9254902 0.9254902 0.9058824 1"/>
@@ -437,7 +437,7 @@
     <collision>
       <origin rpy="0 0 0.0" xyz="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://rfl/meshes/collision/group2_z_axis_inner.stl"/>
+        <mesh filename="package://rfl_description/meshes/collision/group2_z_axis_inner.stl"/>
       </geometry>
     </collision>
   </link>
@@ -677,7 +677,7 @@
     <visual>
       <origin rpy="0 0 0.0" xyz="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://rfl/meshes/visual/group2_z_axis_outer.stl"/>
+        <mesh filename="package://rfl_description/meshes/visual/group2_z_axis_outer.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.9254902 0.9254902 0.9058824 1"/>
@@ -686,7 +686,7 @@
     <collision>
       <origin rpy="0 0 0.0" xyz="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://rfl/meshes/collision/group2_z_axis_outer.stl"/>
+        <mesh filename="package://rfl_description/meshes/collision/group2_z_axis_outer.stl"/>
       </geometry>
     </collision>
   </link>
@@ -707,7 +707,7 @@
     <visual>
       <origin rpy="0 0 3.14159265359" xyz="0.0 12.2364997 0.0"/>
       <geometry>
-        <mesh filename="package://rfl/meshes/visual/y_gantry.stl"/>
+        <mesh filename="package://rfl_description/meshes/visual/y_gantry.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.9254902 0.9254902 0.9058824 1"/>
@@ -716,7 +716,7 @@
     <collision>
       <origin rpy="0 0 3.14159265359" xyz="0.0 12.2364997 0.0"/>
       <geometry>
-        <mesh filename="package://rfl/meshes/collision/y_gantry.stl"/>
+        <mesh filename="package://rfl_description/meshes/collision/y_gantry.stl"/>
       </geometry>
     </collision>
   </link>
@@ -737,7 +737,7 @@
     <visual>
       <origin rpy="0 0 3.14159265359" xyz="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://rfl/meshes/visual/group2_xy_cart.stl"/>
+        <mesh filename="package://rfl_description/meshes/visual/group2_xy_cart.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.9254902 0.9254902 0.9058824 1"/>
@@ -746,7 +746,7 @@
     <collision>
       <origin rpy="0 0 3.14159265359" xyz="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://rfl/meshes/collision/group2_xy_cart.stl"/>
+        <mesh filename="package://rfl_description/meshes/collision/group2_xy_cart.stl"/>
       </geometry>
     </collision>
   </link>
@@ -767,7 +767,7 @@
     <visual>
       <origin rpy="0 0 3.14159265359" xyz="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://rfl/meshes/visual/group2_z_axis_inner.stl"/>
+        <mesh filename="package://rfl_description/meshes/visual/group2_z_axis_inner.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.9254902 0.9254902 0.9058824 1"/>
@@ -776,7 +776,7 @@
     <collision>
       <origin rpy="0 0 3.14159265359" xyz="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://rfl/meshes/collision/group2_z_axis_inner.stl"/>
+        <mesh filename="package://rfl_description/meshes/collision/group2_z_axis_inner.stl"/>
       </geometry>
     </collision>
   </link>
@@ -1016,7 +1016,7 @@
     <visual>
       <origin rpy="0 0 3.14159265359" xyz="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://rfl/meshes/visual/group2_z_axis_outer.stl"/>
+        <mesh filename="package://rfl_description/meshes/visual/group2_z_axis_outer.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.9254902 0.9254902 0.9058824 1"/>
@@ -1025,7 +1025,7 @@
     <collision>
       <origin rpy="0 0 3.14159265359" xyz="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://rfl/meshes/collision/group2_z_axis_outer.stl"/>
+        <mesh filename="package://rfl_description/meshes/collision/group2_z_axis_outer.stl"/>
       </geometry>
     </collision>
   </link>
@@ -1046,7 +1046,7 @@
     <visual>
       <origin rpy="0 0 3.14159265359" xyz="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://rfl/meshes/visual/group1_xy_cart.stl"/>
+        <mesh filename="package://rfl_description/meshes/visual/group1_xy_cart.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.9254902 0.9254902 0.9058824 1"/>
@@ -1055,7 +1055,7 @@
     <collision>
       <origin rpy="0 0 3.14159265359" xyz="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://rfl/meshes/collision/group1_xy_cart.stl"/>
+        <mesh filename="package://rfl_description/meshes/collision/group1_xy_cart.stl"/>
       </geometry>
     </collision>
   </link>
@@ -1076,7 +1076,7 @@
     <visual>
       <origin rpy="0 0 3.14159265359" xyz="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://rfl/meshes/visual/group1_z_axis_inner.stl"/>
+        <mesh filename="package://rfl_description/meshes/visual/group1_z_axis_inner.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.9254902 0.9254902 0.9058824 1"/>
@@ -1085,7 +1085,7 @@
     <collision>
       <origin rpy="0 0 3.14159265359" xyz="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://rfl/meshes/collision/group1_z_axis_inner.stl"/>
+        <mesh filename="package://rfl_description/meshes/collision/group1_z_axis_inner.stl"/>
       </geometry>
     </collision>
   </link>
@@ -1325,7 +1325,7 @@
     <visual>
       <origin rpy="0 0 3.14159265359" xyz="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://rfl/meshes/visual/group1_z_axis_outer.stl"/>
+        <mesh filename="package://rfl_description/meshes/visual/group1_z_axis_outer.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.9254902 0.9254902 0.9058824 1"/>
@@ -1334,7 +1334,7 @@
     <collision>
       <origin rpy="0 0 3.14159265359" xyz="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://rfl/meshes/collision/group1_z_axis_outer.stl"/>
+        <mesh filename="package://rfl_description/meshes/collision/group1_z_axis_outer.stl"/>
       </geometry>
     </collision>
   </link>
