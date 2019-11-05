@@ -27,8 +27,8 @@
   <run_depend>xacro</run_depend>
   <!-- This package is referenced in the warehouse launch files, but does not build out of the box at the moment. Commented the dependency until this works. -->
   <!-- <run_depend>warehouse_ros_mongo</run_depend> -->
-  <build_depend>rfl</build_depend>
-  <run_depend>rfl</run_depend>
+  <build_depend>rfl_description</build_depend>
+  <run_depend>rfl_description</run_depend>
 
 
 </package>
