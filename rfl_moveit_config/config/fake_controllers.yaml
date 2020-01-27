@@ -73,3 +73,23 @@ controller_list:
       - robot22_joint_4
       - robot22_joint_5
       - robot22_joint_6
+  - name: fake_robot11_eaYZ_controller
+    joints:
+      - robot11_joint_EA_Y
+      - robot11_joint_EA_Z
+      - robot11_joint_1
+      - robot11_joint_2
+      - robot11_joint_3
+      - robot11_joint_4
+      - robot11_joint_5
+      - robot11_joint_6
+  - name: fake_robot21_eaYZ_controller
+    joints:
+      - robot21_joint_EA_Y
+      - robot21_joint_EA_Z
+      - robot21_joint_1
+      - robot21_joint_2
+      - robot21_joint_3
+      - robot21_joint_4
+      - robot21_joint_5
+      - robot21_joint_6
