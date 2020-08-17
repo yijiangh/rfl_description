@@ -400,3 +400,59 @@ robot21_eaYZ:
     - SPARStwo
   projection_evaluator: joints(robot21_joint_EA_Y,robot21_joint_EA_Z)
   longest_valid_segment_fraction: 0.005
+robot12_eaXYZ:
+  default_planner_config: None
+  planner_configs:
+    - SBL
+    - EST
+    - LBKPIECE
+    - BKPIECE
+    - KPIECE
+    - RRT
+    - RRTConnect
+    - RRTstar
+    - TRRT
+    - PRM
+    - PRMstar
+    - FMT
+    - BFMT
+    - PDST
+    - STRIDE
+    - BiTRRT
+    - LBTRRT
+    - BiEST
+    - ProjEST
+    - LazyPRM
+    - LazyPRMstar
+    - SPARS
+    - SPARStwo
+  projection_evaluator: joints(bridge1_joint_EA_X,robot12_joint_EA_Y)
+  longest_valid_segment_fraction: 0.005
+robot22_eaXYZ:
+  default_planner_config: None
+  planner_configs:
+    - SBL
+    - EST
+    - LBKPIECE
+    - BKPIECE
+    - KPIECE
+    - RRT
+    - RRTConnect
+    - RRTstar
+    - TRRT
+    - PRM
+    - PRMstar
+    - FMT
+    - BFMT
+    - PDST
+    - STRIDE
+    - BiTRRT
+    - LBTRRT
+    - BiEST
+    - ProjEST
+    - LazyPRM
+    - LazyPRMstar
+    - SPARS
+    - SPARStwo
+  projection_evaluator: joints(bridge2_joint_EA_X,robot22_joint_EA_Y)
+  longest_valid_segment_fraction: 0.005
