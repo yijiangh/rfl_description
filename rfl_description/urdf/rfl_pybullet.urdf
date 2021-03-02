@@ -221,7 +221,7 @@
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://abb_irb4600_40_255/meshes/collision_pybullet/link_3.obj"/>
+        <mesh filename="package://abb_irb4600_40_255/meshes/collision_pybullet/link_3_updated.stl"/>
       </geometry>
     </collision>
   </link>
