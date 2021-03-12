@@ -147,7 +147,7 @@ robot11:
     - SPARS
     - SPARStwo
   projection_evaluator: joints(robot11_joint_1,robot11_joint_2)
-  longest_valid_segment_fraction: 0.005
+  longest_valid_segment_fraction: 0.001
 robot12:
   default_planner_config: None
   planner_configs:
@@ -175,7 +175,7 @@ robot12:
     - SPARS
     - SPARStwo
   projection_evaluator: joints(robot12_joint_1,robot12_joint_2)
-  longest_valid_segment_fraction: 0.005
+  longest_valid_segment_fraction: 0.001
 robot11_eaXYZ:
   default_planner_config: None
   planner_configs:
@@ -203,7 +203,7 @@ robot11_eaXYZ:
     - SPARS
     - SPARStwo
   projection_evaluator: joints(bridge1_joint_EA_X,robot11_joint_EA_Y)
-  longest_valid_segment_fraction: 0.005
+  longest_valid_segment_fraction: 0.001
 robot12_eaYZ:
   default_planner_config: None
   planner_configs:
@@ -231,7 +231,7 @@ robot12_eaYZ:
     - SPARS
     - SPARStwo
   projection_evaluator: joints(robot12_joint_EA_Y,robot12_joint_EA_Z)
-  longest_valid_segment_fraction: 0.005
+  longest_valid_segment_fraction: 0.001
 robot21:
   default_planner_config: None
   planner_configs:
@@ -259,7 +259,7 @@ robot21:
     - SPARS
     - SPARStwo
   projection_evaluator: joints(robot21_joint_1,robot21_joint_2)
-  longest_valid_segment_fraction: 0.005
+  longest_valid_segment_fraction: 0.001
 robot22:
   default_planner_config: None
   planner_configs:
@@ -287,7 +287,7 @@ robot22:
     - SPARS
     - SPARStwo
   projection_evaluator: joints(robot22_joint_1,robot22_joint_2)
-  longest_valid_segment_fraction: 0.005
+  longest_valid_segment_fraction: 0.001
 robot21_eaXYZ:
   default_planner_config: None
   planner_configs:
@@ -315,7 +315,7 @@ robot21_eaXYZ:
     - SPARS
     - SPARStwo
   projection_evaluator: joints(bridge2_joint_EA_X,robot21_joint_EA_Y)
-  longest_valid_segment_fraction: 0.005
+  longest_valid_segment_fraction: 0.001
 robot22_eaYZ:
   default_planner_config: None
   planner_configs:
@@ -343,7 +343,7 @@ robot22_eaYZ:
     - SPARS
     - SPARStwo
   projection_evaluator: joints(robot22_joint_EA_Y,robot22_joint_EA_Z)
-  longest_valid_segment_fraction: 0.005
+  longest_valid_segment_fraction: 0.001
 robot11_eaYZ:
   default_planner_config: RRT
   planner_configs:
@@ -371,7 +371,7 @@ robot11_eaYZ:
     - SPARS
     - SPARStwo
   projection_evaluator: joints(robot11_joint_EA_Y,robot11_joint_EA_Z)
-  longest_valid_segment_fraction: 0.005
+  longest_valid_segment_fraction: 0.001
 robot21_eaYZ:
   default_planner_config: RRT
   planner_configs:
@@ -399,7 +399,7 @@ robot21_eaYZ:
     - SPARS
     - SPARStwo
   projection_evaluator: joints(robot21_joint_EA_Y,robot21_joint_EA_Z)
-  longest_valid_segment_fraction: 0.005
+  longest_valid_segment_fraction: 0.001
 robot12_eaXYZ:
   default_planner_config: None
   planner_configs:
@@ -427,7 +427,7 @@ robot12_eaXYZ:
     - SPARS
     - SPARStwo
   projection_evaluator: joints(bridge1_joint_EA_X,robot12_joint_EA_Y)
-  longest_valid_segment_fraction: 0.005
+  longest_valid_segment_fraction: 0.001
 robot22_eaXYZ:
   default_planner_config: None
   planner_configs:
@@ -455,4 +455,4 @@ robot22_eaXYZ:
     - SPARS
     - SPARStwo
   projection_evaluator: joints(bridge2_joint_EA_X,robot22_joint_EA_Y)
-  longest_valid_segment_fraction: 0.005
+  longest_valid_segment_fraction: 0.001
